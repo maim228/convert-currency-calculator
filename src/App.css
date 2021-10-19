@@ -1,38 +1,22 @@
-.App {
+.app {
   text-align: center;
+  background: url('./images/woman-dropping-banknotes-into-jar-with-rolled-banknotes-table-papers-money-table.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.containerApp{
+    margin-top: 20vh;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.295);
+    padding: 5% 15%;
+    width:50%;
+    margin:15vh auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width:900px){
+  .containerApp{
+    width: 90%;
   }
 }

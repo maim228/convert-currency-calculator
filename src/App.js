@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import TopNav from './components/nav/nav'
+import Calc from './components/calc/calc'
+import Convert from './components/converter/converter';
+import Home from './components/Home/home';
+
+import { Route } from 'react-router';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <TopNav />
+      <div className='containerApp'>
+        <Route exact path='/' render={()=>(<Home />)} />        
+        <Route path='/calc' render={()=>(<Calc />)} />
+        <Route path='/converter' render={()=>(<Convert />)} />
+      </div>
     </div>
   );
 }

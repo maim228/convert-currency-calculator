@@ -1,0 +1,28 @@
+*{
+    text-decoration: none !important;
+}
+.header{
+    display: block;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+    background-color: #ffffff5e;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+@media only screen and (max-width:900px){
+    .header{
+        bottom: 0 !important;
+        background: transparent;
+        height: 10vh;
+        padding-top: 3vh;
+        background-color: #8080808f;
+        top: auto;
+    }
+}
+.header a{
+    
+}

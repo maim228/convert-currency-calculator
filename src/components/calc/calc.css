@@ -1,0 +1,12 @@
+.calculator{
+    height: 24rem;
+  }
+  .result-panel{
+      overflow: hidden;
+  }
+  .button-panel .s3{
+      padding-left: 24px !important;
+  }
+  .button-panel .s1{
+    padding-left: 0px !important;
+}

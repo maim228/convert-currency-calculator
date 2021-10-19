@@ -1,0 +1,37 @@
+.choosefirst{
+    background: transparent;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    display: inline-block;
+    margin: auto 2%;
+}
+.containerApp{
+    padding: 5% 1% !important;
+}
+form .grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+form h1{
+    display: inline-block;
+    font-size: 20pt;
+}
+input{
+    overflow: hidden;
+    color: black;
+}
+.resultForm{
+    display: none;
+}
+button{
+    margin-top: 3em;
+}
+@media only screen and (max-width:900px){
+    form h1{
+        font-size: 15pt;
+    }
+}
+input::placeholder{
+    color: black;
+}
