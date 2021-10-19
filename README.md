@@ -8,7 +8,7 @@ This my new project to use simple calculator or show all currencies price over t
 
 ##### 2- run `npm i`
 
-##### 3- create .env fi;e and put your API key from [freecurrencyapi](https://freecurrencyapi.net/)
+##### 3- create .env file and put your API key from [freecurrencyapi](https://freecurrencyapi.net/)
 
 ##### 4- run `npm run start` or `yarn start`
 
