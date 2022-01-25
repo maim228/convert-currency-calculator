@@ -26,6 +26,6 @@ This my new project to use simple calculator or show all currencies price over t
 
 ## Live Demo
 
-#### [View Demo](https://calc-convert.netlify.app/)
+#### [View Demo](https://maim.dev/land/calconverter/)
 
 #### [My Website](https://maim.cf)
